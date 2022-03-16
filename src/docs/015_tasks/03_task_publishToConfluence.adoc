@@ -114,6 +114,8 @@ For backward compatibility, if this option is present and equal to `true`, then 
 
 If this option is present and equal to `open-api` then any source block marked with `class openapi` will be wrapped in the OpenAPI Documentation for Confluence macro (see https://marketplace.atlassian.com/apps/1215176/open-api-documentation-for-confluence[OpenAPI Documentation for Confluence]). A download source (yaml) button is shown by default.
 
+If this option is present and equal to `swagger-open-api` then any source block marked with `class openapi` will be wrapped in the Open API (Swagger) Integration for Confluence (see https://marketplace.atlassian.com/apps/1218914/open-api-swagger-editor-for-confluence?hosting=cloud&tab=overview[Open API (Swagger) Editor for Confluence]).
+
 Here is how to include your OpenAPI Spec YAML file:
 
 [source,asciidoc]
